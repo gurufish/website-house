@@ -1,0 +1,23 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.card-deck {
+    a.card:hover {
+        text-decoration: none;
+    }
+}
+
+.news-list li::before{
+    content: "˙";
+    color: white;
+}
+
+
+@media screen and(max-width:560px){
+    #add-carousel h1 {
+        font-size:2rem;
+    }
+    #add-carousel .btn {
+        margin-top:0 !important;
+    }
+}
